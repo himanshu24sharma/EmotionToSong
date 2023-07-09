@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MUSIK</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+  <div class="container">
+    <div class="navbar">
+      <label class="logo"><em><strong>MUSICK</strong></em></label>
+      <ul>
+        <li><a href="#title">HOME</a></li>
+        <li><a href="#feature">ABOUT</a></li>
+        <li><a href="#">CONNECT</a></li>
+      </ul>
+
+    </div>
+    <div class="content">
+      <div class="left-col">
+        <h1 class="heading-first">MUSIC TO <br>YOUR<br>MOOD </h1>
+      </div>
+      <div class="right-col">
+        <h3 class="info-music">Want to know<br>how your friend<br>is feeling?
+          <br>
+          Send them songs<br>to cheer them up!
+        </h3>
+        <br>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  </section>
+  <section class="second-block" id="feature">
+    <img src="friendship.png" class="friend-img" width="250" height="250">
+    <h1><strong>You have been chatting with your friend and they seem off mood. </strong></h1>
+    <br>
+    <img src="cry.png" alt="cry-img" width="250" height="250">
+    <h1>    Dont worry, type in their text and we'll get you songs right away</h1>
+    <br><br>
+    <form class="" action="/" method="post">
+        <label for="msg"><strong >Enter your text </strong></label>
+        <textarea name="msg" placeholder="Type your text" required autofocus></textarea><br>
+        <input type="submit" name="" value="Submit">
+
+    </form>
+
+  </section>
+  <section class="third-block" id="songs">
+    <img src="laugh.png" alt="" width="250" height="250">
+    <h1>So, the song according to your mood is </h1>
+    <h2>Copy this link to get list of songs</h2>
+    <p><%=songlink %> </p>
+
+  </section>
+  <footer class="white-section" id="footer">
+    <p>© Copyright 2022 Musick</p>
+  </footer>
+</body>
+
+</html>

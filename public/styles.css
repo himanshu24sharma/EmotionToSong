@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.heading-first{
+  color: #FFACC7;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(image.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 0 0 0 0;
+}
+
+.navbar {
+  width: 88%;
+  margin: 0 10% 0 10%;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+
+}
+
+.logo{
+  width: 140px;
+  cursor: pointer;
+}
+
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 15px;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top:30%;
+}
+
+.left-col{
+  margin-left: 6%;
+}
+
+.left-col h1{
+  font-size: 90px;
+  color: #fff;
+  line-height: 110px;
+  float: left;
+}
+
+.right-col{
+  float: right;
+  margin-right: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  font-size: 40px;
+  color: #fff;
+}
+
+.second-block{
+  background-color: #c4ece4;
+  text-align: center;
+  padding-top: 40px;
+  color: red;
+  padding-bottom: 40px;
+}
+
+.info-music{
+  color: #66BFBF;
+  font-size: 35px;
+}
+
+.form-me{
+  height: 30px;
+  width: 60%;
+}
+
+.third-block{
+  background-color: #fcc4c4;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+label{
+  display: block;
+  margin-top: 1em;
+}
+.checks label{
+  margin-top: 0;
+}
+
+label:first-of-type{
+  margin-top: 0;
+}
+
+input{
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+textarea{
+  min-height: 8em;
+  min-width: 40%;
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+input[type="submit"]{
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #4FA095;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+#songs{
+  padding-bottom: 20px;
+}
+
+#footer{
+  background-color: fff;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px;
+  color: #4FA095;
+}
